@@ -1,0 +1,446 @@
+/* Estilos para header, botones call to action, footer */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* HEADER */
+header {
+    background-color: #F0E6D8;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.logoSF {
+    width: 150px;
+    height: 30px;
+    margin: 5px 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    color: #333333;
+    padding: 0px;
+    width: 1135px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'ESRebondGrotesque Medium';
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: #CCA570;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+}
+
+/* Estilos para el menú desplegable */
+.menu {
+    display: flex;
+    justify-content: end;
+    color: #333;
+    padding: 10px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-self: center;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+
+    margin-top: 0px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'ESRebondGrotesque Medium';
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.menu a:hover {
+    color: #CCA570;
+}
+
+/* Botones call to action */
+
+.botonWpp {
+    color: #FFFFFF;
+    background: #7656E2;
+    text-align: center;
+    border-radius: 50px;
+    align-self: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.botonWpp:hover {
+    background: #AD9AEE;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.botonLogin {
+    color: #60605F;
+    background: #FFC03F;
+    text-align: center;
+    border-radius: 50px;
+    align-self: center;
+    padding: 10px;
+    width: 150px;
+    text-decoration: none;
+    font-family: 'ESRebondGrotesque Medium';
+    border-radius: 100px;
+}
+
+.botonLogin:hover {
+    background: #F0E6D8;
+    color: #000;
+    text-align: center;
+}
+
+.botonHeader {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px;
+    z-index: 1;
+
+}
+
+.botonIndex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 35px;
+    z-index: 1;
+    transform: translateX(-30px);
+}
+
+main {
+    background-color: #F0E6D8;
+
+}
+
+/* Estilos para el footer */
+
+footer {
+    display: flex;
+    padding: 0px 80px 56px 80px;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    background: #FFFFFF;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    width: 1224px;
+    padding: 110px 80px 0px;
+}
+
+.form-footer p {
+    font-family: 'ESRebondGrotesque Light';
+    line-height: 105.5%;
+    /* 23.21px */
+    letter-spacing: 0.8px;
+}
+
+.form-footer h3 {
+    font-family: 'ESRebondGrotesque Medium';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.form-footer a {
+    display: flex;
+    padding: 12px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: #FFC03F;
+    text-decoration: none;
+    color: #000;
+    font-family: 'ESRebondGrotesque Light';
+
+}
+
+.footerLegal {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.footerLegal h5 {
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.footerLegal p {
+    font-family: "Inter";
+    font-size: 12px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.footerLegal a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footerRedes {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+.footerRedes a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footerSF {
+    display: flex;
+    width: 1480px;
+    padding: 40px 0px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footerSF img {
+    width: 148px;
+    height: 26px;
+}
+
+.subinfo {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: "Inter";
+    gap: 1100px;
+}
+
+@media only screen and (max-width: 807px) {
+    header {
+        background-color: #F0E6D8;
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .logoSF {
+        width: 150px;
+        height: 30px;
+        margin: 0px 0px;
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        background: #F0E6D8;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: right;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu li {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+
+    .menu li:last-child {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    footer {
+        display: flex;
+        width: auto;
+        padding: 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .form-footer {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 28px;
+    }
+
+    .footerLegal {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .footerSF {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        padding: 0px;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .footerSF img {
+        width: 90px;
+        height: 20px;
+    }
+
+    .subinfo {
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 30px;
+        margin-right: 40px;
+        font-size: 12px;
+
+    }
+
+    /* .footer-bottom{
+        display: flex;
+        flex-direction: column;
+    } */
+    .footerRedes {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 808px) and (max-width: 1353px) {
+    .footerSF {
+        display: flex;
+        width: auto;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+    }
+
+    .form-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        width: auto;
+        padding: 110px 80px 0px;
+    }
+
+    .subinfo {
+        display: flex;
+        width: auto;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 130px;
+    }
+}
+
+/* RESPONSIVE DESKTOP */
+@media only screen and (min-width: 1354px) and (max-width: 1653px) {
+
+    .footerSF {
+        display: flex;
+        width: 1280px;
+        padding: 40px 0px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .subinfo {
+        display: flex;
+        width: auto;
+        justify-content: space-between;
+        align-items: flex-end;
+        font-family: "Inter";
+        gap: 980px;
+    }
+
+
+}

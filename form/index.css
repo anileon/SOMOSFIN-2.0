@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url(../index.css);
+
+@font-face {
+    font-family: "ESRebondGrotesque Bold";
+    src: url(../fonts/ESRebondGrotesque-Bold.woff2)format('woff2'),
+
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Medium";
+    src: url(../fonts/ESRebondGrotesque-Medium.woff2)format('woff2');
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Regular";
+    src: url(../fonts/ESRebondGrotesque-Regular.woff2)format('woff2');
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Light";
+    src: url(../fonts/ESRebondGrotesque-Light.woff2)format('woff2'), ;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+
+}
+
+body {
+    background-color: #F0E6D8;
+    margin: 0;
+}
+
+.form {
+    height: auto;
+    padding: 120px 400px 0px;
+}
+
+.Reservas {
+    background-color: #F0E6D8;
+    padding: 80px 0px 30px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* version mobile */
+@media screen and (max-width: 900px){
+.form {
+    height: auto;
+    padding: 140px 100px 0px;
+    
+}
+
+/* version tablet */
+@media only screen and (min-width: 900px) and (max-width: 1353px) {
+    .form {
+    width: 100%;
+    height: auto;
+    padding: 100px 60px 0px ;
+}
+
+}
+}

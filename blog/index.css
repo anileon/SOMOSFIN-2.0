@@ -306,6 +306,54 @@ p {
 
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 870px) {
+
+    main {
+        display: flex;
+        padding: 0px 84px 120px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 37px;
+        align-self: stretch;
+    }
+
+    .blog-intro h2 {
+        color: #171C21;
+        text-align: left;
+        font-family: "ESRebondGrotesque Bold";
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        padding: 20px 0px 0px;
+    }
+
+    .blog-intro p {
+        color: #60605F;
+        text-align: left;
+        font-family: "Inter";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: -0.28px;
+    }
+
+    .blog-featured {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 53px;
+        flex-direction: column;
+    }
+
+
+    .card-image img {
+        width: 300px;
+        height: auto;
+        border-radius: 20px;
+    }
+
     .blog-wrap {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 20px;
@@ -314,6 +362,8 @@ p {
 
     .blog-card1,
     .blog-card2 {
+        width: 400px;
+        max-width: 350px;
         transform: none;
         margin: 0;
 
@@ -321,30 +371,28 @@ p {
 
     .blog-card1 img,
     .blog-card2 img {
-        max-height: 150px;
-        /* Adjust the height for smaller screens */
+        max-width: 300px;
+
     }
 
     .texto-blog {
-        padding: 1rem;
-        /* Adjust padding for smaller screens */
+        padding: 50px 0px 0px;
+       
     }
 
     .texto-blog a {
-        font-size: 18px;
-        /* Adjust font size for smaller screens */
+        font-size: 22px;
+     
     }
 
     .categoria-blog {
         margin: 0.5rem 0.5rem 0px;
-        /* Adjust margin for smaller screens */
+        
     }
 
     .categoria-blog span {
         font-size: 16px;
-        /* Adjust font size for smaller screens */
-        padding: .1rem .3rem;
-        /* Adjust padding for smaller screens */
+        padding: .1rem .3rem;    
     }
 
     .perfil-card {
@@ -354,47 +402,50 @@ p {
 
     .img-perfil-card img {
         width: 40px;
-        /* Adjust image size for smaller screens */
         height: 40px;
         margin: 0.5rem;
-        /* Adjust margin for smaller screens */
     }
 
     .text-perfil-card {
         margin: 0.5rem 0rem;
-        /* Adjust margin for smaller screens */
         padding: 5px 0px;
-        /* Adjust padding for smaller screens */
     }
 
-/* RESPONSIVE TABLET */
-
-@media  (min-width: 808px) and (max-width: 1353px) {
-
-
-    .blog-intro h2 {
-        color:  #171C21;
-        text-align: center;
-        font-family: "ESRebondGrotesque Bold";
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 60px;
-        padding: 0px;
-    }
-
-    .blog-intro p {
+    .text-perfil-card span {
         color: #60605F;
-        text-align: center;
-        font-family: "Inter";
-        font-size: 17px;
+        font-family: 'ESRebondGrotesque Light';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 85%;
+        padding: 10px 0px 0px;
     }
-}
 
-@media only screen and (max-width: 807px) {
+    /* RESPONSIVE TABLET */
+
+    @media (min-width: 808px) and (max-width: 1353px) {
 
 
-}
+        .blog-intro h2 {
+            color: #171C21;
+            text-align: center;
+            font-family: "ESRebondGrotesque Bold";
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px;
+            padding: 0px;
+        }
+
+        .blog-intro p {
+            color: #60605F;
+            text-align: center;
+            font-family: "Inter";
+            font-size: 17px;
+        }
+    }
+
+    @media only screen and (max-width: 807px) {}
 
 
 }

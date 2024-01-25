@@ -30,6 +30,17 @@ main {
     padding-bottom: 90px;
 }
 
+.menu {
+    display: none;
+    flex-direction: column;
+    background: #FFE09F;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    text-align: right;
+}
+
 .planes-intro {
     display: flex;
     padding: 80px 130px 80px;

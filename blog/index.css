@@ -281,11 +281,6 @@ p {
 /* Media Query for Tablets */
 @media only screen and (min-width: 870px) and (max-width: 1340px) {
 
-    .headerIntro {
-        transition: background-color 1s ease;
-        justify-content: center;
-        width: auto;
-    }
 
     .blog-wrap {
         grid-template-columns: repeat(2, 1fr);
@@ -309,7 +304,7 @@ p {
 
     main {
         display: flex;
-        padding: 0px 84px 120px;
+        padding: 0px 40px 120px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -321,7 +316,7 @@ p {
         color: #171C21;
         text-align: left;
         font-family: "ESRebondGrotesque Bold";
-        font-size: 70px;
+        font-size: 55px;
         font-style: normal;
         font-weight: 700;
         line-height: 60px;
@@ -349,7 +344,7 @@ p {
 
 
     .card-image img {
-        width: 300px;
+        width: 350px;
         height: auto;
         border-radius: 20px;
     }
@@ -445,7 +440,7 @@ p {
         }
     }
 
-    @media only screen and (max-width: 807px) {}
+
 
 
 }
